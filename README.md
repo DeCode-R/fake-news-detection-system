@@ -1,4 +1,3 @@
-````markdown
 # 📰 Fake News Detection System
 
 ## 📌 Project Overview
@@ -7,32 +6,32 @@ The Fake News Detection System is a Machine Learning-based project designed to c
 
 This project demonstrates skills in:
 
-- Machine Learning
-- Natural Language Processing (NLP)
-- Data Preprocessing
-- Text Classification
-- Predictive Modeling
+* Machine Learning
+* Natural Language Processing (NLP)
+* Data Preprocessing
+* Text Classification
+* Predictive Modeling
 
 ---
 
 # 🚀 Features
 
-✅ Detects Fake and Real News Articles  
-✅ Uses NLP for text preprocessing  
-✅ TF-IDF Vectorization for feature extraction  
-✅ Logistic Regression Machine Learning model  
-✅ High prediction accuracy  
+✅ Detects Fake and Real News Articles
+✅ Uses NLP for text preprocessing
+✅ TF-IDF Vectorization for feature extraction
+✅ Logistic Regression Machine Learning model
+✅ High prediction accuracy
 ✅ User input prediction system
 
 ---
 
 # 🛠 Technologies Used
 
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-- NLP Techniques
+* Python
+* Pandas
+* NumPy
+* Scikit-learn
+* NLP Techniques
 
 ---
 
@@ -42,14 +41,12 @@ This project uses the **ISOT Fake News Dataset** from Kaggle.
 
 Dataset Source:
 
-- Fake News Detection Datasets by Emine Yetm
+* Fake News Detection Datasets by Emine Yetm
 
-Dataset Files:
+Dataset includes:
 
-```text
-Fake.csv
-True.csv
-````
+* `Fake.csv`
+* `True.csv`
 
 Labels used in this project:
 
@@ -58,9 +55,7 @@ Labels used in this project:
 | 0     | Fake News |
 | 1     | Real News |
 
-Dataset Link:
-
-https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets
+The dataset contains thousands of real and fake news articles collected from multiple online news sources. ([Kaggle][1])
 
 ---
 
@@ -68,7 +63,7 @@ https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets
 
 Install required libraries:
 
-```bash
+```bash id="o6u4l9"
 pip install -r requirements.txt
 ```
 
@@ -78,7 +73,7 @@ pip install -r requirements.txt
 
 Run the application:
 
-```bash
+```bash id="c2r7zn"
 python app.py
 ```
 
@@ -86,7 +81,7 @@ python app.py
 
 # 🧠 Machine Learning Workflow
 
-```text
+```text id="m7q5rx"
 Dataset → Text Cleaning → TF-IDF Vectorization → Train Model → Predict News
 ```
 
@@ -105,7 +100,7 @@ The system achieves high prediction accuracy for detecting fake and real news ar
 
 # 📁 Project Structure
 
-```text
+```text id="m4s2pk"
 fake-news-detection-system/
 │
 ├── dataset/
@@ -139,8 +134,6 @@ fake-news-detection-system/
 🎓 Computer Science & Engineering Graduate
 💡 Interested in Artificial Intelligence, Machine Learning, and Data Science
 
-GitHub:
-https://github.com/DeCode-R
+---
 
-```
-```
+[1]: https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets?utm_source=chatgpt.com "Fake News Detection Datasets"
